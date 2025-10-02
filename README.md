@@ -43,16 +43,17 @@ Dữ liệu phim được xử lý bằng **pandas** và mô hình gợi ý dự
        git clone https://github.com/TrungMK12/MovieRecommendSystem
        cd MovieRecommendSystem
     2. Tạo virtual environment
-        python -m venv .venv
-        Kích hoạt:
-        Windows (PowerShell):
-        .venv\Scripts\Activate
-        Mac/Linux:
-        source .venv/bin/activate
+       python -m venv .venv
+       Kích hoạt:
+           Windows (PowerShell):
+               .venv\Scripts\Activate
+           Mac/Linux:
+               source .venv/bin/activate
     3. Cài dependencies
-        pip install -r requirements.txt
+       pip install -r requirements.txt
     4. Chạy ứng dụng
-        streamlit run app/app.py
+       streamlit run app/app.py
+
 
 
 
