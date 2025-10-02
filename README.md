@@ -40,8 +40,8 @@ MovieRecommendSystem
 
 ## ⚙️ Cài đặt & chạy
 1. Clone repo
-git clone https://github.com/TrungMK12/MovieRecommendSystem
-cd MovieRecommendSystem
+   git clone https://github.com/TrungMK12/MovieRecommendSystem
+   cd MovieRecommendSystem
 2. Tạo virtual environment
 python -m venv .venv
 Kích hoạt:
@@ -53,4 +53,5 @@ source .venv/bin/activate
 pip install -r requirements.txt
 4. Chạy ứng dụng
 streamlit run app/app.py
+
 
