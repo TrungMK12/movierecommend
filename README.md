@@ -22,36 +22,37 @@ Dữ liệu phim được xử lý bằng **pandas** và mô hình gợi ý dự
 ---
 
 ## 📂 Cấu trúc project
-MovieRecommendSystem
-├── data/                     
-│   ├── tmdb_5000_movies.csv
-│   ├── tmdb_5000_credits.csv
-│
-├── utils/                    
-│   ├── movies.pkl            
-│   ├── similarity.zip        
-│
-├── app.py                   
-├── MovieRecommend.ipynb      
-├── requirements.txt         
-├── README.md                
+    MovieRecommendSystem
+    ├── data/                     
+    │   ├── tmdb_5000_movies.csv
+    │   ├── tmdb_5000_credits.csv
+    │
+    ├── utils/                    
+    │   ├── movies.pkl            
+    │   ├── similarity.zip        
+    │
+    ├── app.py                   
+    ├── MovieRecommend.ipynb      
+    ├── requirements.txt         
+    ├── README.md                
 
 ---
 
 ## ⚙️ Cài đặt & chạy
-1. Clone repo
-   git clone https://github.com/TrungMK12/MovieRecommendSystem
-   cd MovieRecommendSystem
-2. Tạo virtual environment
-python -m venv .venv
-Kích hoạt:
-Windows (PowerShell):
-.venv\Scripts\Activate
-Mac/Linux:
-source .venv/bin/activate
-3. Cài dependencies
-pip install -r requirements.txt
-4. Chạy ứng dụng
-streamlit run app/app.py
+    1. Clone repo
+       git clone https://github.com/TrungMK12/MovieRecommendSystem
+       cd MovieRecommendSystem
+    2. Tạo virtual environment
+        python -m venv .venv
+        Kích hoạt:
+        Windows (PowerShell):
+        .venv\Scripts\Activate
+        Mac/Linux:
+        source .venv/bin/activate
+    3. Cài dependencies
+        pip install -r requirements.txt
+    4. Chạy ứng dụng
+        streamlit run app/app.py
+
 
 
